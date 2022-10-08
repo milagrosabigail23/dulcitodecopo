@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Laila:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Meddon&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+
+        body{
+            background-color: rgba(0, 0, 0, 0.082);
+            background-image:  linear-gradient(to left bottom, #fbe7f3, #fddff3, #ffd6f3, #ffcef4, #ffc6f6, #f1cbfc, #e5cfff, #d9d3ff, #cbdfff, #c4eaff, #c9f3ff, #d5f9f9);
+        }
+
+        header{
+            padding: 2rem;
+            display: flex;
+            justify-content: end;
+            align-items: flex-start;
+            justify-content: space-between;
+            background-color: #fcf0faec;
+        
+        }
+
+.lista__servicios{
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+    background-color: #fbe7f3
+
+        }
+
+.lista__navegacion{
+            padding-left: 200px;
+    
+        }
+
+        .link{
+            display: inline-block;
+            padding-left: 20px;
+            margin: 30 px;
+            justify-content: flex-end;
+            font-family: 'Laila';
+            font-size: larger;
+        
+        }
+
+        .container{
+            display:flex;
+            height:100vh;
+            
+        
+        }
+        .container__hijo1{
+            height:100%;
+            width: 50% ;
+            background-image: url(../trabajjocoponenas.jpg);
+          
+        
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size:contain;
+
+            
+            display:flex;
+            flex-direction: column;
+            justify-content:center;
+            align-items:center;
+            justify-content: space-between;
+
+            
+        }
+
+        .container__hijo2{
+            width:50%;
+            height: 100%;
+            display:flex;
+            flex-direction:column;
+            align-items: flex-start;
+            justify-content:center;
+           /* border-bottom: 10px solid rgb(228, 206, 206);*/
+
+        }
+.imagenes_trabajo{
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    padding-inline: 20px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+h1{
+    font-size: 3rem;
+    /*line-height: 1.1;*/
+    margin-bottom: 2.5rem;
+    margin-top: 2 rem;
+    font-family: 'Meddon', cursive;
+    text-align: center;
+
+
+}
+h2{
+     font-size: 2rem;
+     /*line-height: 1.1;*/
+     margin-bottom: 2.5rem;
+     font-family: 'Meddon', cursive;
+}
+
+h3{
+    padding: 30px;
+}
+.box__parrafo{  
+     padding-right: 30px;
+     display: flex;
+   
+}
+p{
+     font-size: 1.5rem;
+     line-height: 1.1;
+     margin-bottom: 0.5rem;
+}
+.formulario{
+    display: flex;
+    justify-content:center ;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.contacto{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.parrafo2{
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Laila';
+}
+
+        footer{
+            background-image: url(../imagenes/filapochorose.jpg);
+            background-position: center;
+    
+         
+        }
+        .textfooter{
+            text-align: center;
+            font-size: small;
+            margin-top: auto;
+            margin-bottom: auto;
+        }
+.iframe{
+
+display: flex;
+justify-content: center;
+
+  
+}
+.titulovideo{
+    text-align: center;
+}
+
+fieldset{
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (min-width: 768px){
+    .container{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 769px) and (min-width: 1200px) {
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}    
+}
