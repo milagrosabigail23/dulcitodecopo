@@ -1,9 +1,16 @@
-header{
+header {
     padding: 2rem;
-    display: $flex;
-    justify-content: end;
-    align-items: flex-start;
-    justify-content: space-between;
-    background-color: #db66c8ec;
-
-}
+    display: flex;
+    justify-content: flex-end;
+    background-color: #ffffff09;
+   
+    }
+    .encabezado{
+     background-color: #0e000000;
+    }
+   .navbar{
+     background-color: #000508;
+   }
+   .container-fluid{
+     background-color: #0e000000;
+   }
